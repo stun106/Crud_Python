@@ -20,6 +20,18 @@ class Relatorios():
         self.c.setFont("Helvetica-Bold", 24)
         self.c.drawString(200, 790, 'Ficha do Cliente')
 
+        self.c.setFont("Helvetica-Bold",18)
+        self.c.drawString(50,700,'Codigo: ')
+        self.c.drawString(50,670,'Nome: ')
+        self.c.drawString(50,630,'Telefone: ')
+        self.c.drawString(50,600,'Cidade: ' )
+        
+        self.c.setFont("Helvetica-Bold",18)
+        self.c.drawString(50,700,'Codigo: ')
+        self.c.drawString(50,670,'Nome: ')
+        self.c.drawString(50,630,'Telefone: ')
+        self.c.drawString(50,600,'Cidade: ' )
+
         self.c.showPage()
         self.c.save()
         self.printClientes()
