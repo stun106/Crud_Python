@@ -26,11 +26,11 @@ class Relatorios():
         self.c.drawString(50,630,'Telefone: ')
         self.c.drawString(50,600,'Cidade: ' )
         
-        self.c.setFont("Helvetica-Bold",18)
-        self.c.drawString(50,700,'Codigo: ')
-        self.c.drawString(50,670,'Nome: ')
-        self.c.drawString(50,630,'Telefone: ')
-        self.c.drawString(50,600,'Cidade: ' )
+        self.c.setFont("Helvetica",18)
+        self.c.drawString(150,700,self.codigoRel)
+        self.c.drawString(150,670,self.nomeRel)
+        self.c.drawString(150,630,self.TelRel)
+        self.c.drawString(150,600,self.CityRel )
 
         self.c.showPage()
         self.c.save()
